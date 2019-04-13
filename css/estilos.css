@@ -1,0 +1,117 @@
+body,body{
+	overflow-y: hidden;
+	overflow-x:hidden;
+	margin: 0px;
+	background-color: lightblue;
+	color: black;
+}
+#cont-form{
+	width: 40%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	background-color: rgba(5, 124, 162, 0.66);
+	justify-content: center;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+	border-radius: 10px;
+	flex-direction: column;
+}
+#navelogin{
+	width: 150px;
+}
+#nombre{
+	width: 250px;
+	height: 25px;
+	border-radius: 8px;
+	border: none;
+}
+#jugarya{
+margin-top: 20px;
+border-radius: 5px;
+background-color: rgb(113, 183, 223);
+width: 20%;
+border: none;
+height: 8%;
+}
+#jugarya:hover{
+	color: white;
+	background-color: rgb(18, 40, 105) ;
+	width: 25%;
+	height: 10%;
+	transition: .4s;
+}
+#time, #contador,h1{
+	color: white;
+	font-family: monospace;
+	font-size: 2rem;
+}
+#banner{
+	width: 100%;
+	background-image: url('../img/nubesnegro.png');
+	position: absolute;
+	background-size: contain;
+	background-repeat: repeat;
+	animation: animatedBackground 15s linear infinite;
+}
+@keyframes animatedBackground {
+	from { background-position: 100% 100%; }
+	to { background-position: 0 100%; }
+}
+#nave{
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	top: 45%;
+	left: 10%;
+}
+.aste{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	/* top: 80%; */
+	left: 92%;
+	margin-bottom: 100px
+}
+.aste2{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+  /* top: 20%; */
+	left: 95%;
+}
+#formulario{
+	padding: 10px;
+	background-color: white;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+#enviar{
+	cursor: pointer;
+}
+.marcado{
+	background-color: lightblue;
+}
+.alerta{
+	color: red;
+}
+.exito{
+	color: green;
+}
+#lista{
+	padding: 10px;
+	background-color: white;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+.zoom{
+	transition: 1.5s ease;
+}
+.zoom:hover{
+	transform: scale(2);
+	-moz-transform: scale(2);/*para zafari*/
+	-webkit-transform: scale(2);/*chrome*/
+	-o-transform: scale(2);/*opera*/
+	-ms-transform: scale(2);/*explorer*/
+}

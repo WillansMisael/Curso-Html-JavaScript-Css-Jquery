@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<form id="formulario">
+		<h2>¡Registrate al mejor juego del mundo!</h2>
+		<p>
+			Nombre:
+			<br>
+			<input type="text" id="nombre">
+			<span id="id1">¡Tu nombre es requerido!</span>
+		</p>
+		<p>
+			Contraseña:
+			<br>
+			<input type="password" id="password">
+			<span id="id2">(Máximo 7 caracteres)</span>
+		</p>
+		<p>
+			Confirmación de Contraseña:
+			<br>
+			<input type="password" id="confirmacion">
+			<span id="id3"></span>
+		</p>
+		<p>
+			<input type="button" id="enviar"
+			value="Enviar">
+		</p>
+	</form>
+
+	<!-- para eliminar usurios de la lista -->
+	<p>
+		Escriba el nombre del usuario que quiere eliminar:
+		<input type="text" id="eliminado">
+		<button id="eliminar">Eliminar</button>
+	</p>
+	<!-- fin -->
+
+	<button id="usuarios">Mostrar Usuarios</button>
+	<div id="lista">
+
+	</div>
+
+	<script src="lib/jquery-3.3.1.min.js"></script>
+	<script src="js/formulario.js"></script>
+</body>
+</html>
